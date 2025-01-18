@@ -26,15 +26,16 @@ export default function Home() {
           />
         </div>
       </div> */}
-      <div className="flex bg-[#FBEBB5] relative px-4 sm:px-6 md:px-8">
-  <div className="container text-black relative flex-auto">
-    <div className="absolute left-[50%] transform -translate-x-1/2 top-[30%] sm:top-[35%] md:top-[40%] text-xl sm:text-2xl md:text-4xl text-center">
-      Rocket Single Seater
-    </div>
-    <button className="absolute left-[50%] transform -translate-x-1/2 top-[55%] sm:top-[60%] md:top-[70%] text-lg sm:text-xl cursor-pointer hover:text-gray-500 underline">
-      Shop Now
-    </button>
+      {/* <div className="flex bg-[#FBEBB5] relative px-4 sm:px-6 md:px-8">
+
+  <div className="container text-black relative flex justify-center items-center min-h-screen">
+  <div className="absolute left-1/2 transform -translate-x-1/2 text-center text-xl sm:text-2xl md:text-4xl lg:text-5xl top-[30%] sm:top-[15%] md:top-[40%] lg:top-[45%]">
+    Rocket Single Seater
   </div>
+  <button className="absolute left-1/2 transform -translate-x-1/2 text-lg sm:text-xl md:text-2xl lg:text-3xl top-[55%] sm:top-[50%] md:top-[65%] lg:top-[70%] cursor-pointer hover:text-gray-500 underline">
+    Shop Now
+  </button>
+</div>
   <div className="container px-4 sm:px-6 md:px-8">
     <Image 
       src={singleseater1}
@@ -44,7 +45,27 @@ export default function Home() {
       className="w-full h-auto"
     />
   </div>
+</div> */}
+<div className="flex bg-[#FBEBB5] relative px-4 sm:px-6 md:px-8">
+  <div className="container text-black relative flex justify-center items-center min-h-screen">
+    <div className="absolute left-1/2 transform -translate-x-1/2 text-center text-xl sm:text-2xl md:text-4xl lg:text-5xl top-[30%] sm:top-[15%] md:top-[40%] lg:top-[45%]">
+      Rocket Single Seater
+    </div>
+    <button className="absolute left-1/2 transform -translate-x-1/2 text-lg sm:text-xl md:text-2xl lg:text-3xl top-[55%] sm:top-[50%] md:top-[65%] lg:top-[70%] cursor-pointer hover:text-gray-500 underline">
+      Shop Now
+    </button>
+  </div>
+  <div className="container px-4 sm:px-6 md:px-8">
+    <Image 
+      src={singleseater1}
+      alt="Single Seater"
+      width={853}
+      height={1000}
+      className="w-full h-auto object-cover"
+    />
+  </div>
 </div>
+
 
 
       {/* Side Table and Sofas Section */}
@@ -162,11 +183,11 @@ export default function Home() {
         <center>
           <h2 className="w-[311px] font-bold text-black pt-10 text-2xl sm:text-3xl">Our Blogs</h2>
         </center>
-        <center>
-          <h4 className="w-[773px] text-black font-normal pt-4 pb-5 text-sm sm:text-lg">
+        
+          <h4 className=" text-black font-bold pt-4 pb-5 text-2xl flex items-center justify-center">
             Find a bright ideal to suit your taste with our great selection
           </h4>
-        </center>
+        
         <div className="flex flex-wrap items-center justify-center gap-4 p-4">
           {/* Blog 1 */}
           <div className="flex flex-col p-4 border border-gray-200 rounded-lg shadow-md hover:shadow-xl items-center justify-center w-full sm:w-1/2 md:w-1/4">
